@@ -1,0 +1,26 @@
+/* Smooth scroll behavior */
+:host {
+  display: block;
+}
+
+/* Animation for table rows */
+@keyframes slideInRow {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+::ng-deep .songs-table tbody tr {
+  animation: slideInRow 0.4s ease forwards;
+}
+
+::ng-deep .songs-table tbody tr:nth-child(1) { animation-delay: 0.05s; }
+::ng-deep .songs-table tbody tr:nth-child(2) { animation-delay: 0.1s; }
+::ng-deep .songs-table tbody tr:nth-child(3) { animation-delay: 0.15s; }
+::ng-deep .songs-table tbody tr:nth-child(4) { animation-delay: 0.2s; }
+::ng-deep .songs-table tbody tr:nth-child(5) { animation-delay: 0.25s; }
