@@ -28,3 +28,7 @@ Single-file application (`tictactoe.html`) combining:
 ## Design notes
 
 Theme uses green/orange gradient; if updating colors, search the file for `#22c55e` (green) and `#ff8c42` (orange) to keep all references consistent.
+
+## Git workflow
+
+**Commit and push all work to GitHub.** Each change should be committed with a clear, descriptive message (e.g. "Fix minimax bug in corner cases" or "Update button styling"). Push regularly to GitHub to maintain a complete history and ensure no work is lost. Use this repository as the source of truth for project status and progress.
