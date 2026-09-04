@@ -1,0 +1,26 @@
+# Backend
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/*.iml
+backend/.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/out-tsc/
+frontend/.angular/
+
+# IDEs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
